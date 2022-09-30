@@ -110,17 +110,30 @@ export default function Home() {
               role="Water Resources & Eng."
               company="Chittagong University of Eng. & Tech."
               date="Sep 2022 - Present"
-              link=""
-              description="Started by graduation life on CUET as a WRE student."
+              link="https://www.cuet.ac.bd/"
+              description="Started my graduation life on CUET as a WRE student."
             />
+            <Item
+                  role="HSC-21"
+                  company="Chittagong College"
+                  date="July 2019 - Dec 2021"
+                  link="https://ctgcollege.gov.bd/"
+                  description="I've passed my college life there"
+                />
+                <Item
+                      role="Kg to Class-10"
+                      company="Chittagong Cantonment Public College"
+                      date="July 2019 - Dec 2021"
+                      link="https://ccpc.edu.bd/"
+                      description="Passed one of the best memory in this institution"
+                    />
         </Section>
         <Section header="Experience">
           <Stack spacing={8}>
             <Item
               role="Founder & President"
-              company="Ongko.Org"
+              company="Ongko. Org"
               date="Dec 2019 - Dec 2020"
-              link="#"
               description="Build a Sciend and Math olympiad practice and learning environment so that students fear to math & science could be removed"
             />
             <Item
