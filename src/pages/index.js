@@ -162,7 +162,7 @@ export default function Home() {
             />
           </Stack>
         </Section>
-        <Section header="Photography">
+        {/*<Section header="Photography">
           <Stack spacing={5}>
             <Text>
               Over the past few years, I’ve been building my craft as a
@@ -254,20 +254,16 @@ export default function Home() {
             </HStack>
           </Stack>
         </Section>
-
+  */}
      {/* <Photos images={PortfolioImages} mt={-8} mb={8} />*/}
 
         <Section header="Contact">
           <Stack spacing={4} mb={7}>
             <Text>
-              I love connecting with new people to learn from and am always more
-              than willing to help with questions you may have.
+            I enjoy meeting new individuals to learn from and am always happy to answer any questions you may have.
             </Text>
             <Text>
-              Besides that, I enjoy talking about photography, abandoned
-              side-projects, stocks that could make us bazillionaires, the
-              psychology behind why we make poor decisions, or how Anthony
-              Fantano made a mistake by giving MBDTF a 6/10.
+            Additionally, I like to talk about programming, abandoned side projects, and more math. 
             </Text>
           </Stack>
           <Stack align="flex-start" spacing={3}>
@@ -282,18 +278,15 @@ export default function Home() {
             </Link>
             <SecondaryBtn
               icon={<DiscordLogo />}
-              onClick={() => clipboard.copy("mitul#0988")}
+              onClick={() => clipboard.copy("minar_svn")}
             >
-              Chat on Discord – mitul#0988
+              Chat on Telegram – minar_svn
             </SecondaryBtn>
             <Link
               href="https://twitter.com/typicalmitul"
               _hover={{ textDecoration: "none" }}
               isExternal
             >
-              <SecondaryBtn icon={<TwitterLogo />}>
-                DM me on Twitter
-              </SecondaryBtn>
             </Link>
           </Stack>
         </Section>
