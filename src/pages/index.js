@@ -113,20 +113,20 @@ export default function Home() {
               link="https://www.cuet.ac.bd/"
               description="Started my graduation life on CUET as a WRE student."
             />
-            <Item
-                  role="HSC-21"
-                  company="Chittagong College"
-                  date="July 2019 - Dec 2021"
-                  link="https://ctgcollege.gov.bd/"
-                  description="I've passed my college life there"
-                />
-                <Item
-                      role="Kg to Class-10"
-                      company="Chittagong Cantonment Public College"
-                      date="July 2019 - Dec 2021"
-                      link="https://ccpc.edu.bd/"
-                      description="Passed one of the best memory in this institution"
-                    />
+        <Item
+              role="HSC-21"
+              company="Chittagong College"
+              date="July 2019 - Dec 2021"
+              link="https://ctgcollege.gov.bd/"
+              description="I've passed my college life there"
+            />
+        <Item
+              role="Kg to Class-10"
+              company="Chittagong Cantonment Public College"
+              date="July 2019 - Dec 2021"
+              link="https://ccpc.edu.bd/"
+              description="Passed one of the best memory in this institution"
+            />
         </Section>
         <Section header="Experience">
           <Stack spacing={8}>
