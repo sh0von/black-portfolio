@@ -9,7 +9,7 @@ import {
   Link,
   Skeleton,
 } from "@chakra-ui/react";
-import { Code,Confetti,User } from "phosphor-react";
+import { Code, Diamond , User } from "phosphor-react";
 import Section from "@/components/Section";
 import useSWR from "swr";
 import fetcher from "@/lib/fetcher";
@@ -64,19 +64,16 @@ const Current = () => {
       >
         
         <CurrentItem
-          link=""
-          icon={Confetti}
+          icon={Diamond}
           title={"A Startup"}
           caption={"Thinking about"}
         />
         <CurrentItem
-          link=""
           icon={User}
           title={"Portfolio"}
           caption={"Current Project"}
         />
         <CurrentItem
-          link=""
           icon={Code}
           title={"Python"}
           caption={"Practicing"}
