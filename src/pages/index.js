@@ -159,6 +159,13 @@ export default function Home() {
               demo={false}
               code={true}
             />
+            <Project
+              title="Minimal Blog Starter"
+              description="Next.JS is used to create a simple blog starter. Very basic design and responsive Ui that allows you to easily publish your blog. This beginning makes use of MDX as the blog file. "
+              repo="https://crywolf.vercel.app/"
+              demo={true}
+              code={true}
+            />
           </Stack>
         </Section>
         <Section header="Photography">
