@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 import Photos from "@/components/Photos";
 import {
   PaperPlaneTilt,
-  MessengerLogo,
+  PaperPlane,
   Code,
   TwitterLogo,
   InstagramLogo,
@@ -269,7 +269,7 @@ export default function Home() {
           </Stack>
           <Stack align="flex-start" spacing={3}>
             <Link
-              href="mailto:mitulxshah@gmail.com"
+              href="mailto:minar@duck.com"
               mb="-4px"
               _hover={{ textDecoration: "none" }}
             >
@@ -278,7 +278,7 @@ export default function Home() {
               </SecondaryBtn>
             </Link>
             <SecondaryBtn
-              icon={<MessengerLogo />}
+              icon={<PaperPlane />}
               onClick={() => clipboard.copy("minar_svn")}
             >
               Chat on Telegram – minar_svn
