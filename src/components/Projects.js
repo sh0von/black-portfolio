@@ -14,15 +14,6 @@ import {
 
 const Project = ({ title, description, repo, demo, code, journal }) => {
   const [data, setData] = useState(false);
-  const getStars = () => {
-    fetch(`https://api.github.com/repos/sh0von/${repo}`)
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        setData(data);
-      });
-  };
 
   useEffect(() => {
     getStars();
