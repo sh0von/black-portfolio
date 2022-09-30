@@ -41,10 +41,7 @@ const AboutText = () => (
         </Stack>
       </Box>
       <Text>
-        Throughout my professional life, I had the pleasure of joining Soapbox,
-        a B2B SaaS, where I helped convert users from free to paid through
-        growth experiments. While in school, I had several internships
-        specifically including product roles in banking and operations at Uber.
+      Currently, I'm attempting to become a competitive Python coder.So I practice on a daily basis and compete in Codeforces contests. 
       </Text>
 
       <Text>
