@@ -48,9 +48,7 @@ const AboutText = () => (
       </Text>
 
       <Text>
-        In my free time, I’m usually editing or taking photos, binge-watching
-        vlogs by Casey Neistat, playing video games, starting a side project
-        (with hopes to not abandon it), or learning about investment psychology.
+        In my free time, I usually do research on StartUp, watching movie, read blogs from medium, playing video games, starting a side project or learning new programming language or framework.
       </Text>
     </Stack>
   </>
