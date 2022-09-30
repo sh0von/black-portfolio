@@ -154,7 +154,14 @@ export default function Home() {
               repo="https://crywolf.vercel.app/"
               demo={false}
               code={true}
-            />
+            />   
+             <Project
+            title="Paprback"
+            description="Built a platform to showcase your bookshelves using React Hooks, NextJS, and Chakra UI, while working alongside a backend developer and designer. We received 300+ sign ups, 1200+ visitors along with 600+ upvotes and 8 awards on Reddit."
+            repo="paprback.co"
+            demo={true}
+            code={true}
+          />
             <Project
               title="Juno"
               description="A daily tracker web app that allows you to write down your instant recollection and create a timeline of your daily activity.It is written in React JS and employs Mongo Db as its database. "
