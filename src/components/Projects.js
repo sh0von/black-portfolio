@@ -32,15 +32,6 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
     <Box p={6} border="1px solid" borderColor="trueGray">
       <Flex justifyContent="space-between" alignItems="center" mb={4}>
         <Heading size="md">{title}</Heading>
-        {data.stargazers_count > 0 ? (
-          <HStack>
-              <Icon fontSize="xl" as={Star} />
-              <Text>{data.stargazers_count}</Text>
-            </HStack>
-          </Tooltip>
-        ) : (
-          ""
-        )}
       </Flex>
       <Text>{description}</Text>
       <HStack fontSize="md" mt={4} color="trueGray.500">
