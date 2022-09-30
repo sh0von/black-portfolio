@@ -87,7 +87,7 @@ export default function Home() {
           <Heading mb={4}>Hi, my name is Shovon</Heading>
           <Box lineHeight={9}>
             <Text  fontSize={["lg", null, "xl"]} mb={4}>
-            Welcome to my virtual garden, where I share what I'm learning about delivering amazing products, becoming a better coder, and advancing my career in technology. {" "}
+            Welcome to my virtual garden, where I share what I'm learning about delivering amazing products, becoming a better coder, and advancing my career in technology.If you have any query about me, {" "}
               <Link
                 href="mailto:minar@duck.com"
                 borderBottom="1px solid"
