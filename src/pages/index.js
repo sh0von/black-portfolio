@@ -139,9 +139,9 @@ export default function Home() {
               journal={true}
             /> */}
             <Project
-              title="Paprback"
-              description="Built a platform to showcase your bookshelves using React Hooks, NextJS, and Chakra UI, while working alongside a backend developer and designer. We received 300+ sign ups, 1200+ visitors along with 600+ upvotes and 8 awards on Reddit."
-              repo="paprback.co"
+              title="Wolfram Alpha Messenger Bot"
+              description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
+              repo=""
               demo={true}
               code={true}
             />
