@@ -6,7 +6,8 @@ import Section from "@/components/Section";
 import Photos from "@/components/Photos";
 import {
   PaperPlaneTilt,
-  TelegramLogo,
+  MessengerLogo,
+  Code,
   TwitterLogo,
   InstagramLogo,
   Aperture,
@@ -277,7 +278,7 @@ export default function Home() {
               </SecondaryBtn>
             </Link>
             <SecondaryBtn
-              icon={<TelegramLogo />}
+              icon={<MessengerLogo />}
               onClick={() => clipboard.copy("minar_svn")}
             >
               Chat on Telegram – minar_svn
