@@ -112,24 +112,19 @@ const SocialPopover = () => {
           className={styles.navBlur}
         >
           <SocialButton
-            title="twitter"
-            icon={TwitterLogo}
-            link="https://twitter.com/typicalmitul"
-          />
-          <SocialButton
             title="instagram"
             icon={InstagramLogo}
-            link="https://instagram.com/typicalmitul"
+            link="https://instagram.com/minar_svn"
           />
           <SocialButton
             title="github"
             icon={GithubLogo}
-            link="https://github.com/mitul-s"
+            link="https://github.com/sh0von"
           />
           <SocialButton
             title="linkedin"
             icon={LinkedinLogo}
-            link="https://linkedin.com/in/heymitul"
+            link="https://linkedin.com/in/sh0von"
           />
         </Flex>
       </PopoverContent>
