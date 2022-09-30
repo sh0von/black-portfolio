@@ -152,6 +152,7 @@ export default function Home() {
               title="Wolfram Alpha Messenger Bot"
               description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
               repo="https://crywolf.vercel.app/"
+              view="https://google.com"
               demo={true}
               code={true}
             />

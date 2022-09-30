@@ -12,7 +12,7 @@ import {
   Icon,
 } from "@chakra-ui/react";
 
-const Project = ({ title, description, repo, demo, code, journal }) => {
+const Project = ({ title, description, repo, demo, code, journal,view }) => {
   const [data, setData] = useState(false);
   const getStars = () => {
     fetch(`https://api.github.com/repos/sh0von/${repo}`)
@@ -39,7 +39,7 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
           <Link
             data-splitbee-event={`${title} - Demo`}
             data-splitbee-event-type="Projects"
-            href={repo}
+            href={view}
             variant="ghost-sm"
             marginLeft={-1.5}
             
@@ -56,7 +56,7 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
           <Link
             data-splitbee-event={`${title} - Code`}
             data-splitbee-event-type="Projects"
-            href={title}
+            href={repo}
             variant="ghost-sm"
             marginLeft={-1.5}
             
