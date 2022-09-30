@@ -39,7 +39,7 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
           <Link
             data-splitbee-event={`${title} - Demo`}
             data-splitbee-event-type="Projects"
-            href={{repo}}
+            href={repo}
             variant="ghost-sm"
             marginLeft={-1.5}
             
@@ -56,7 +56,7 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
           <Link
             data-splitbee-event={`${title} - Code`}
             data-splitbee-event-type="Projects"
-            href={{title}}
+            href={title}
             variant="ghost-sm"
             marginLeft={-1.5}
             
