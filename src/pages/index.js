@@ -110,7 +110,7 @@ export default function Home() {
         <Stack spacing={8}>
         <Item
               role="Water Resources & Eng."
-              company="Chittagong University of Eng. & Tech."
+              company="CUET"
               date="Sep 2022 - Present"
               link="https://www.cuet.ac.bd/"
               description="Started my graduation life on CUET as a WRE student."
@@ -124,7 +124,7 @@ export default function Home() {
             />
         <Item
               role="Kg to Class-10"
-              company="Chittagong Cantonment Public College"
+              company="CCPC"
               date="July 2019 - Dec 2021"
               link="https://ccpc.edu.bd/"
               description="Passed one of the best memory in this institution"
