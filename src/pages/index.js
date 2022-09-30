@@ -132,12 +132,12 @@ export default function Home() {
         </Section>
         <Section header="Projects">
           <Stack spacing={8}>
-            {/* <Project
+             <Project
               title="Annotate – WIP"
               description="A browser extension to augment the internet experience; annotate, save and share. This is a work in progress, learn more through my journal link below."
               demo={false}
               journal={true}
-            /> */}
+            />
             <Project
               title="Wolfram Alpha Messenger Bot"
               description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
