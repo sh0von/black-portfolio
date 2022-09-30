@@ -279,9 +279,9 @@ export default function Home() {
             </Link>
             <SecondaryBtn
               icon={<PaperPlane />}
-              onClick={() => clipboard.copy("minar_svn")}
+              onClick={() => clipboard.copy("@minar_svn")}
             >
-              Chat on Telegram – minar_svn
+              Chat on Telegram – @minar_svn
             </SecondaryBtn>
           </Stack>
         </Section>

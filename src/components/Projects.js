@@ -15,7 +15,7 @@ import {
 const Project = ({ title, description, repo, demo, code, journal }) => {
   const [data, setData] = useState(false);
   const getStars = () => {
-    fetch(`https://api.github.com/repos/mitul-s/${repo}`)
+    fetch(`https://api.github.com/repos/sh0von/${repo}`)
       .then((res) => {
         return res.json();
       })
@@ -33,14 +33,7 @@ const Project = ({ title, description, repo, demo, code, journal }) => {
       <Flex justifyContent="space-between" alignItems="center" mb={4}>
         <Heading size="md">{title}</Heading>
         {data.stargazers_count > 0 ? (
-          <Tooltip
-            label="Github Stargazers"
-            aria-label="Github Stargazers"
-            closeOnClick={false}
-            closeOnMouseDown={false}
-            openDelay={600}
-          >
-            <HStack>
+          <HStack>
               <Icon fontSize="xl" as={Star} />
               <Text>{data.stargazers_count}</Text>
             </HStack>
