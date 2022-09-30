@@ -19,6 +19,7 @@ import {
   Badge,
 } from "@chakra-ui/react";
 import {
+  Hash,
   TwitterLogo,
   InstagramLogo,
   GithubLogo,
@@ -111,16 +112,22 @@ const SocialPopover = () => {
           }
           className={styles.navBlur}
         >
-          <SocialButton
-            title="instagram"
-            icon={InstagramLogo}
-            link="https://instagram.com/minar_svn"
-          />
+        <SocialButton
+          title="CodeForces"
+          icon={Hash}
+          link="https://codeforces.com/profile/minar_svn"
+        />
           <SocialButton
             title="github"
             icon={GithubLogo}
             link="https://github.com/sh0von"
           />
+
+        <SocialButton
+          title="instagram"
+          icon={InstagramLogo}
+          link="https://instagram.com/minar_svn"
+        />
           <SocialButton
             title="linkedin"
             icon={LinkedinLogo}

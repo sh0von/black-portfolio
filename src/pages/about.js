@@ -6,7 +6,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>About / Mitul Shah</title>
+        <title>About / Shovon</title>
       </Head>
       <Shell>
         <About />
