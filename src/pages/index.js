@@ -152,6 +152,13 @@ export default function Home() {
               demo={false}
               code={true}
             />
+            <Project
+              title="CF Solution"
+              description="All Codeforces problems that I've solved are set down on one page with comments to help beginners understand the code perfectly. All of the solutions are written in Python."
+              repo=""
+              demo={false}
+              code={true}
+            />
           </Stack>
         </Section>
         <Section header="Photography">
