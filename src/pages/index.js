@@ -108,7 +108,7 @@ export default function Home() {
         <Item
               role="Water Resources & Eng."
               company="Chittagong University of Eng. & Tech."
-              date="September 2022 - Present"
+              date="Sep 2022 - Present"
               link=""
               description="Started by graduation life on CUET as a WRE student."
             />
@@ -118,14 +118,14 @@ export default function Home() {
             <Item
               role="Founder & President"
               company="Ongko.Org"
-              date="December 2019 - December 2020"
+              date="Dec 2019 - Dec 2020"
               link="#"
               description="Build a Sciend and Math olympiad practice and learning environment so that students fear to math & science could be removed"
             />
             <Item
               role="Founder"
               company="Solver Hero"
-              date="March 2020 - july 2020"
+              date="Mar 2020 - Jul 2020"
               description="Another Math plattform so that student can judge him by different type of course and test."
             />
           </Stack>

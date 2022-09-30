@@ -62,28 +62,24 @@ const Current = () => {
         // flexShrink="0"
         flex="1"
       >
-        {song ? (
-          <CurrentItem
-            icon={MusicNotesSimple}
-            title={song?.title}
-            caption={song?.artist}
-            link={song?.songUrl}
-          />
-        ) : (
-          <CurrentItemSkeleton icon={MusicNotesSimple} />
-        )}
         
         <CurrentItem
           link=""
           icon={Monitor}
-          title={"Current Project"}
-          caption={"Portfolio"}
+          title={"A Startup"}
+          caption={"Thinking about"}
         />
         <CurrentItem
           link=""
           icon={Monitor}
-          title={"Practicing CP"}
-          caption={"Python"}
+          title={"Portfolio"}
+          caption={"Current Project"}
+        />
+        <CurrentItem
+          link=""
+          icon={Monitor}
+          title={"Python"}
+          caption={"Practicing"}
         />
       </Stack>
     </Section>

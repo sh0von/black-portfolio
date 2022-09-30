@@ -243,7 +243,7 @@ const Nav = () => {
           }
           className={styles.navBlur}
         >
-          <HStack spacing={3} alignItems="center" justifyContent="center">
+          <HStack spacing={1} alignItems="center" justifyContent="center">
             <NextLink href="/">
               <NavBtn
                 onClick={() => {
