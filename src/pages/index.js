@@ -87,7 +87,7 @@ export default function Home() {
           <Heading mb={4}>Hi, my name is Shovon</Heading>
           <Box lineHeight={9}>
             <Text  fontSize={["lg", null, "xl"]} mb={4}>
-            I'm a useless dev living in Chittagong, Bangladesh. I have made a lot of projects, from basic HTML pages to complex projects like live Exam System.Now I'm learning Python/C++. I hope to be a great NOOB and get my dream job in the future. Send me Hi if you wanna know anthing,{" "}
+            Welcome to my virtual garden, where I share what I'm learning about delivering amazing products, becoming a better coder, and advancing my career in technology. {" "}
               <Link
                 href="mailto:minar@duck.com"
                 borderBottom="1px solid"
@@ -248,7 +248,7 @@ export default function Home() {
         </Section>
 
         <Photos images={PortfolioImages} mt={-8} mb={8} />
-        
+
         <Section header="Contact">
           <Stack spacing={4} mb={7}>
             <Text>
