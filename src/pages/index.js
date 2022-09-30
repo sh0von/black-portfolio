@@ -142,13 +142,13 @@ export default function Home() {
               title="Wolfram Alpha Messenger Bot"
               description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
               repo=""
-              demo={true}
+              demo={false}
               code={true}
             />
             <Project
-              title="Are You Balding"
-              description="Built a campaign to find out if you're balding with Framer Motion & React to support the acquisition funnel for online pharmacies.  Designed mockups and prototypes in Figma, and translated to code with advanced interactions & animations."
-              repo="areyoubalding.com"
+              title="Juno"
+              description="A daily tracker web app that allows you to write down your instant recollection and create a timeline of your daily activity.It is written in React JS and employs Mongo Db as its database. "
+              repo=""
               demo={false}
               code={true}
             />
