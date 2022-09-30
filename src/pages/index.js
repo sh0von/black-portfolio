@@ -152,21 +152,21 @@ export default function Home() {
               title="Wolfram Alpha Messenger Bot"
               description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
               repo="https://crywolf.vercel.app/"
-              demo={false}
+              demo={true}
               code={true}
             />
             <Project
               title="Juno"
               description="A daily tracker web app that allows you to write down your instant recollection and create a timeline of your daily activity.It is written in React JS and employs Mongo Db as its database. "
               repo="https://crywolf.vercel.app/"
-              demo={false}
+              demo={true}
               code={true}
             />
             <Project
               title="CF Solution"
               description="All Codeforces problems that I've solved are set down on one page with comments to help beginners understand the code perfectly. All of the solutions are written in Python."
               repo="https://crywolf.vercel.app/"
-              demo={false}
+              demo={true}
               code={true}
             />
             <Project
