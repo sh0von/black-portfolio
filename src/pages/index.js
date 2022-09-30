@@ -106,6 +106,8 @@ export default function Home() {
         </Flex>
         <Current />
         <Section header="Education">
+
+        <Stack spacing={8}>
         <Item
               role="Water Resources & Eng."
               company="Chittagong University of Eng. & Tech."
@@ -126,7 +128,7 @@ export default function Home() {
               date="July 2019 - Dec 2021"
               link="https://ccpc.edu.bd/"
               description="Passed one of the best memory in this institution"
-            />
+            /></Stack>
         </Section>
         <Section header="Experience">
           <Stack spacing={8}>
