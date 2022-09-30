@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: "https://crywolf.me/media/banner.png",
+        url: "https://crywolf.me/media/svn.png",
         alt: title,
         width: 1280,
         height: 720,

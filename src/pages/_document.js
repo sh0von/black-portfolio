@@ -7,7 +7,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/media/favicon.ico" />
+          <link rel="icon" href="/media/svn.png" />
           <link
             rel="preload"
             href="/fonts/inter-var-latin.woff2"
