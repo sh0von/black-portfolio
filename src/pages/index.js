@@ -151,29 +151,32 @@ export default function Home() {
             <Project
               title="Wolfram Alpha Messenger Bot"
               description="A JavaScript-built Facebook/Messenger bot that uses the Wolfram Alpha API can assist students and parents in finding mathematical solutions quickly and easily. "
-              repo="https://crywolf.vercel.app/"
-              view="https://google.com"
+              repo=""
+              view=""
               demo={true}
               code={true}
             />
             <Project
               title="Juno"
               description="A daily tracker web app that allows you to write down your instant recollection and create a timeline of your daily activity.It is written in React JS and employs Mongo Db as its database. "
-              repo="https://crywolf.vercel.app/"
+              repo=""
+              view=""
               demo={true}
               code={true}
             />
             <Project
               title="CF Solution"
               description="All Codeforces problems that I've solved are set down on one page with comments to help beginners understand the code perfectly. All of the solutions are written in Python."
-              repo="https://crywolf.vercel.app/"
+              repo=""
+              view=""
               demo={true}
               code={true}
             />
             <Project
               title="Minimal Blog Starter"
               description="Next.JS is used to create a simple blog starter. Very basic design and responsive Ui that allows you to easily publish your blog. This beginning makes use of MDX as the blog file. "
-              repo="https://crywolf.vercel.app/"
+              repo=""
+              view=""
               demo={true}
               code={true}
             />
