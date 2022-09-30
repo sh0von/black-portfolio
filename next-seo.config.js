@@ -1,20 +1,20 @@
-const title = 'Mitul Shah'
+const title = 'Shovon'
 
-const description = "Hi, my name is Mitul and I'm still figuring things out.";
+const description = "Hi, my name is Shovon and I'm still figuring things out.";
 
 const SEO = {
   title,
   description,
-  canonical: "https://mitul.ca",
+  canonical: "https://crywolf.me",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://mitul.ca",
+    url: "https://crywolf.me",
     title,
     description,
     images: [
       {
-        url: "https://mitul.ca/media/banner.png",
+        url: "https://crywolf.me/media/banner.png",
         alt: title,
         width: 1280,
         height: 720,
@@ -22,8 +22,8 @@ const SEO = {
     ],
   },
   twitter: {
-    handle: "@typicalmitul",
-    site: "@typicalmitul",
+    handle: "@shovon",
+    site: "@shovon",
     cardType: "summary_large_image",
   },
 };

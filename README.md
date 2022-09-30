@@ -17,8 +17,8 @@ If you have any questions, suggestions, think it's the ~~worst~~ best website ev
 _Note: I do have an .env.example file, but it could take awhile to get those keys. You could delete all the code related to those endpoints if it makes things easier._
 
 ```bash
-$ git clone https://github.com/mitul-s/$ mitul.ca.git
-$ cd mitul.ca
+$ git clone https://github.com/mitul-s/$ crywolf.me.git
+$ cd crywolf.me
 $ npm install
 $ npm run dev
 # or yarn if you prefer that
@@ -31,4 +31,4 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ---
 
 #### Deploy on Vercel 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fmitul-s%2Fmitul.ca)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fmitul-s%2Fcrywolf.me)

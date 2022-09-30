@@ -85,7 +85,7 @@ const About = () => {
               <Link
                 data-splitbee-event="github"
                 data-splitbee-event-type="Social"
-                href="https://github.com/mitul-s/mitul.ca"
+                href="https://github.com/mitul-s/crywolf.me"
                 textDecoration="underline"
                 _hover={{ color: "cyan.600" }}
                 isExternal
