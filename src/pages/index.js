@@ -288,7 +288,7 @@ export default function Home() {
           </Stack>
           <Stack align="flex-start" spacing={3}>
             <Link
-              href="mailto:minar@duck.com"
+              href="mailto:dzk1whep@duck.com"
               mb="-4px"
               _hover={{ textDecoration: "none" }}
             >
