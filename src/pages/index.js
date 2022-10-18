@@ -298,26 +298,31 @@ export default function Home() {
   </Thead>
   <Tbody>
     <Tr>
-      <Td>inches</Td>
-      <Td>inches</Td>
-      <Td isNumeric>25.4</Td>
+      <Td>Codeforces</Td>
+      <Td>minar_svn</Td>
+      <Td isNumeric>64</Td>
     </Tr>
     <Tr>
-      <Td>feet</Td>
-      <Td>inches</Td>
-      <Td isNumeric>30.48</Td>
+      <Td>CodeChef</Td>
+      <Td>minarsvn</Td>
+      <Td isNumeric>12</Td>
     </Tr>
     <Tr>
-      <Td>yards</Td>
-      <Td>inches</Td>
-      <Td isNumeric>0.91444</Td>
+      <Td>BeeCrowd</Td>
+      <Td>minar.svn</Td>
+      <Td isNumeric>05</Td>
+    </Tr>
+    <Tr>
+      <Td>HackerRank</Td>
+      <Td>minar_svn</Td>
+      <Td isNumeric></Td>
     </Tr>
   </Tbody>
   <Tfoot>
     <Tr>
-      <Th>To convert</Th>
-      <Th>inches</Th>
-      <Th isNumeric>multiply by</Th>
+      <Th>OJ</Th>
+      <Th>Username</Th>
+      <Th isNumeric>Solve Count</Th>
     </Tr>
   </Tfoot>
 </Table>
