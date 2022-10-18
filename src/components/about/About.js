@@ -54,8 +54,8 @@ const AboutText = () => (
 const About = () => {
   return (
     <>
-     {/* <Photos images={PersonalImages} mt={24} mb={8} />
-  */}
+      <Photos images={PersonalImages} mt={24} mb={8} />
+  
       <Flex justifyContent="flex-end" flexDirection="column">
         <Stack spacing={4}>
           <Section header="About">
