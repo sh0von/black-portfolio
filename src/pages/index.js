@@ -286,32 +286,37 @@ export default function Home() {
         </Section>
   */}
 
-<Section header="Contact">
+<Section header="Problem Solving Stats">
           <Stack spacing={4} mb={7}>
   <Table size="md">
   <Thead>
     <Tr>
-      <Th>To convert</Th>
-      <Th isNumeric>multiply by</Th>
+      <Th>OJ</Th>
+      <Th>Username</Th>
+      <Th isNumeric>Solve Count</Th>
     </Tr>
   </Thead>
   <Tbody>
     <Tr>
       <Td>inches</Td>
+      <Td>inches</Td>
       <Td isNumeric>25.4</Td>
     </Tr>
     <Tr>
       <Td>feet</Td>
+      <Td>inches</Td>
       <Td isNumeric>30.48</Td>
     </Tr>
     <Tr>
       <Td>yards</Td>
+      <Td>inches</Td>
       <Td isNumeric>0.91444</Td>
     </Tr>
   </Tbody>
   <Tfoot>
     <Tr>
       <Th>To convert</Th>
+      <Th>inches</Th>
       <Th isNumeric>multiply by</Th>
     </Tr>
   </Tfoot>
