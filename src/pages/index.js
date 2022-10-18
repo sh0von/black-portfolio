@@ -288,7 +288,7 @@ export default function Home() {
 
 <Section header="Contact">
           <Stack spacing={4} mb={7}>
-  <Table size="sm">
+  <Table size="md">
   <Thead>
     <Tr>
       <Th>To convert</Th>
