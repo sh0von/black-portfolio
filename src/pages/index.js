@@ -288,7 +288,7 @@ export default function Home() {
 
 <Section header="Problem Solving Stats">
           <Stack spacing={8}>
-  <Table size="md">
+  <Table size="sm">
   <Thead>
     <Tr>
       <Th>OJ</Th>
